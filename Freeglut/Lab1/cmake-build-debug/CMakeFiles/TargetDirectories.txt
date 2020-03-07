@@ -1,0 +1,3 @@
+/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir
+/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
