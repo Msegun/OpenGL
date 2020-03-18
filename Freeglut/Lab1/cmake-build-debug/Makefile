@@ -48,10 +48,10 @@ RM = /home/msegun/Pobrane/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1"
+CMAKE_SOURCE_DIR = /home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles" "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/cmake-build-debug/CMakeFiles /home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Lab1/fast:
 	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/build
 .PHONY : Lab1/fast
 
-cubes_x_y_z.o: cubes_x_y_z.cpp.o
+chessboard.o: chessboard.cpp.o
 
-.PHONY : cubes_x_y_z.o
+.PHONY : chessboard.o
 
 # target to build an object file
-cubes_x_y_z.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/cubes_x_y_z.cpp.o
-.PHONY : cubes_x_y_z.cpp.o
+chessboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/chessboard.cpp.o
+.PHONY : chessboard.cpp.o
 
-cubes_x_y_z.i: cubes_x_y_z.cpp.i
+chessboard.i: chessboard.cpp.i
 
-.PHONY : cubes_x_y_z.i
+.PHONY : chessboard.i
 
 # target to preprocess a source file
-cubes_x_y_z.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/cubes_x_y_z.cpp.i
-.PHONY : cubes_x_y_z.cpp.i
+chessboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/chessboard.cpp.i
+.PHONY : chessboard.cpp.i
 
-cubes_x_y_z.s: cubes_x_y_z.cpp.s
+chessboard.s: chessboard.cpp.s
 
-.PHONY : cubes_x_y_z.s
+.PHONY : chessboard.s
 
 # target to generate assembly for a file
-cubes_x_y_z.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/cubes_x_y_z.cpp.s
-.PHONY : cubes_x_y_z.cpp.s
+chessboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/chessboard.cpp.s
+.PHONY : chessboard.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab1"
 	@echo "... edit_cache"
-	@echo "... cubes_x_y_z.o"
-	@echo "... cubes_x_y_z.i"
-	@echo "... cubes_x_y_z.s"
+	@echo "... chessboard.o"
+	@echo "... chessboard.i"
+	@echo "... chessboard.s"
 .PHONY : help
 
 

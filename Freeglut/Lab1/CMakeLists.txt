@@ -8,5 +8,5 @@ set(CMAKE_CXX_FLAGS "-lGLU")
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab1 cubes_x_y_z.cpp)
+add_executable(Lab1 chessboard.cpp)
 target_link_libraries(Lab1 -lglut -lGL -lGLU)

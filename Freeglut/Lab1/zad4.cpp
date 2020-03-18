@@ -28,7 +28,7 @@ void Render() {
 
     glFrontFace(GL_CW);
     glBegin(GL_TRIANGLE_STRIP);
-    for(int i = 0; i < 4; i++){
+    for(int i = 0; i < 8; i++){
         glColor3f(rand() % 20 / 120.0, rand() % 20 / 120.0, rand() % 20 / 120.0);
         double x = distribution(generator)  % 120;
         double y = distribution(generator)  % 120;

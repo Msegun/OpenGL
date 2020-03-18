@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cubes_x_y_z.cpp
+/home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/chessboard.cpp
+cmath
+-
 iostream
 -
 GL/freeglut.h
+-
+cmath
 -
 

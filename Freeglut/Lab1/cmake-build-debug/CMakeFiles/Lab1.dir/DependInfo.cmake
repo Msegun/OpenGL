@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cubes_x_y_z.cpp" "/home/msegun/Dokumenty/Studies/OpenGL - freeglut Training/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/cubes_x_y_z.cpp.o"
+  "/home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/chessboard.cpp" "/home/msegun/Dokumenty/Studies/OpenGL/Freeglut/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/chessboard.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
