@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS "-lGL")
 # set(CMAKE_CXX_FLAGS "-lGLU")
 set(CMAKE_CXX_FLAGS "-lGLEW")
 
-add_executable(Lab2 zad1.cpp shader_stuff.h house.h)
+add_executable(Lab2 zad4.cpp shader_stuff.h house.h)
 # -lGLU mozna dodac
 target_link_libraries(Lab2 -lglut -lGL -lGLEW)
 
