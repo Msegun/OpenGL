@@ -19,6 +19,7 @@ GLuint loadDDS(const char * imagepath);
 
 
 #include <GL/glew.h>
+#include <cstdio>
 
 
 // --------------------------------------------------------------
