@@ -6,6 +6,6 @@ set(CMAKE_CXX_FLAGS "-lglut")
 set(CMAKE_CXX_FLAGS "-lGL")
 set(CMAKE_CXX_FLAGS "-lGLEW")
 
-add_executable(Lab5 zad2.cpp shader_stuff.h texture_loader.hpp glm)
+add_executable(Lab5 zad3.cpp shader_stuff.h texture_loader.hpp glm)
 # -lGLU mozna dodac
 target_link_libraries(Lab5 -lglut -lGL -lGLEW)
