@@ -14,9 +14,9 @@ uniform sampler2D tex0;
 
 void main()
 {
-    Light_Positions[0] = vec3(0.0, 1.0, -2.0);
-    Light_Positions[1] = vec3(10.0, 1.0, -2.0);
-    Light_Positions[2] = vec3(-10.0, 1.0, 10.0);
+    Light_Positions[0] = vec3(-3.0, 1.0, 0.0);
+    Light_Positions[1] = vec3(2.0, 1.0, -3.0);
+    Light_Positions[2] = vec3(1.0, 2.0, 3.0);
 
     vec4 objectColor = texture( tex0, ourUV );
     vec3 shadeColor = vec3(0.2, 0.2, 0.2);

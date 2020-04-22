@@ -31,14 +31,14 @@ void DisplayScene()
 
     // Geometria sceny
     Matrix_mv = glm::mat4x4( 1.0 );
-    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x-3, _scene_translate_y, _scene_translate_z ) );
+    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x-3, _scene_translate_y-1, _scene_translate_z ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_x, glm::vec3( 1.0f, 0.0f, 0.0f ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_y, glm::vec3( 0.0f, 1.0f, 0.0f ) );
     Matrix_proj_mv = Matrix_proj * Matrix_mv;
     glprog[0].draw(Matrix_proj_mv);
 
     Matrix_mv = glm::mat4x4( 1.0 );
-    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x+3, _scene_translate_y, _scene_translate_z ) );
+    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x, _scene_translate_y-0.7, _scene_translate_z ) );
     Matrix_mv = glm::scale(Matrix_mv, glm::vec3(0.5f,0.5f,0.5f));
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_x, glm::vec3( 1.0f, 0.0f, 0.0f ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_y, glm::vec3( 0.0f, 1.0f, 0.0f ) );
@@ -46,14 +46,14 @@ void DisplayScene()
     glprog[1].draw(Matrix_proj_mv);
 
     Matrix_mv = glm::mat4x4( 1.0 );
-    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x, _scene_translate_y, _scene_translate_z ) );
+    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x+3, _scene_translate_y-1, _scene_translate_z ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_x, glm::vec3( 1.0f, 0.0f, 0.0f ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_y, glm::vec3( 0.0f, 1.0f, 0.0f ) );
     Matrix_proj_mv = Matrix_proj * Matrix_mv;
     glprog[2].draw(Matrix_proj_mv);
 
     Matrix_mv = glm::mat4x4( 1.0 );
-    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x, _scene_translate_y, _scene_translate_z ) );
+    Matrix_mv = glm::translate( Matrix_mv, glm::vec3( _scene_translate_x, _scene_translate_y-1, _scene_translate_z ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_x, glm::vec3( 1.0f, 0.0f, 0.0f ) );
     Matrix_mv = glm::rotate( Matrix_mv, _scene_rotate_y, glm::vec3( 0.0f, 1.0f, 0.0f ) );
     Matrix_proj_mv = Matrix_proj * Matrix_mv;
